@@ -46,7 +46,6 @@ for (int j = 0; j < columns; j++)
     
     Console.Write(average + "   ");
 }
-//Console.WriteLine();
 
 void PrintArray(int[,] array)
 {
