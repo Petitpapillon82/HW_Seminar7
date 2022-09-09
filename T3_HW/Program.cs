@@ -37,14 +37,14 @@ Console.Write("Среднее арифметическое каждого сто
 
 for (int j = 0; j < columns; j++)
 {
-    double avarage = 0;
+    double average = 0;
     for (int i = 0; i < rows; i++)
     {
-        avarage = (avarage + array[i, j]);
+        average = (average + array[i, j]);
     }
-    avarage = Math.Round(avarage / rows, 1);
+    average = Math.Round(average / rows, 1);
     
-    Console.Write(avarage + "   ");
+    Console.Write(average + "   ");
 }
 //Console.WriteLine();
 
